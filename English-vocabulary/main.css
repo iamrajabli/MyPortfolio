@@ -1,0 +1,49 @@
+@import url('reset.css');
+body {
+    font-family: 'Montserrat';
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgb(202, 202, 202);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+/* 
+button {
+    border: none;
+    padding: 7px 50px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    transition: all 200ms linear;
+    outline: none;
+}
+
+
+.az {
+    background-color: rgb(228, 129, 0);
+}
+
+.az:hover {
+    background-color: rgb(255, 172, 64);
+} */
