@@ -1,5 +1,4 @@
 'use strict';
-
 class Screen {
     constructor() {
         this.control = document.querySelector('.control');
