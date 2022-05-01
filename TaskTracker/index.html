@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="main.css">
+    <title>Task Tracker</title>
+</head>
+
+<body>
+    <header id="header-app">
+        <div class="container-logo">
+            <span id="logo">
+            Task tracker
+        </span>
+        </div>
+    </header>
+    <main>
+        <section id="container-new-task">
+            <div class="header">
+                Add New Task
+            </div>
+            <div id="new-task">
+                <input id="txt-add-task" type="text">
+                <button id="btn-add-task">Add</button>
+            </div>
+            <!-- <div class="info info-success">
+                <div class="info-icon">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <div class="info-text">Successfuly added!</div>
+            </div> -->
+        </section>
+
+        <section id="container-search-task">
+            <div class="header">
+                Search Task
+            </div>
+            <div id="new-task">
+                <input id="txt-search-task" type="text">
+            </div>
+        </section>
+        <section id="container-task-list">
+            <div class="header">
+                Tasks
+            </div>
+
+            <div class="task-list">
+                <!-- <div class="info info-danger">
+                <div class="info-icon">
+                    <i class="fa-solid fa-circle-info"></i>
+                </div>
+                <div class="info-text">No saved tasks!</div>
+            </div> -->
+                <!-- <div class="task">
+                    <div class="task-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, similique fuga? Perferendis, voluptatibus minurem ipsum dolor sit amet consectetur, adipisicing elit. At, similique fuga? Perferendis, voluptatibus minus.</div>
+                    <div class="task-icon">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div> -->
+                <button id="btn-all-tasks-complete">
+                    Complete All
+                </button>
+            </div>
+
+        </section>
+
+        <section id="container-completed-task-list">
+            <div class="header">
+                Completed Tasks
+            </div>
+            <div class="task-list">
+                <!-- <div class="info info-danger">
+                    <div class="info-icon">
+                        <i class="fa-solid fa-circle-info"></i>
+                    </div>
+                    <div class="info-text">No completed tasks!</div>
+                </div>
+
+                <div class="task">
+                    <div class="task-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, similique fuga? Perferendis, voluptatibus minurem ipsum dolor sit amet consectetur, adipisicing elit. At, similique fuga? Perferendis, voluptatibus minus.</div>
+                    <div class="task-icon">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </div>
+                </div>
+                -->
+                <button id="btn-all-tasks-remove">
+                   Remove All
+                </button>
+            </div>
+
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

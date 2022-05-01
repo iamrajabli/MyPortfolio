@@ -1,0 +1,172 @@
+:root {
+    --color-primary: #231655;
+    --color-secondary: #3e4c83;
+    --color-text: #ffffff;
+    --color-background: #f1f3f8;
+    --color-info-success: #71b647;
+    --color-info-danger: #d65858;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+#header-app {
+    background-color: var(--color-primary);
+    height: 4rem;
+}
+
+#logo {
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-left: 1rem;
+    color: var(--color-text);
+    text-transform: uppercase;
+}
+
+button,
+i {
+    cursor: pointer;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 1rem;
+}
+
+.header {
+    height: 3rem;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    line-height: 3rem;
+}
+
+.info {
+    height: 2.5rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info-icon {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text);
+    margin-right: .5rem;
+}
+
+.info-text {
+    color: var(--color-text);
+    font-size: 1.3rem;
+    width: 85%;
+}
+
+.info-success {
+    background-color: var(--color-info-success);
+}
+
+.info-danger {
+    background-color: var(--color-info-danger);
+}
+
+#txt-add-task {
+    height: 2rem;
+    width: 75%;
+    font-size: 1.3rem;
+    padding-left: .4rem;
+    outline: none;
+}
+
+#btn-add-task {
+    height: 2rem;
+    width: calc(25% - 4px);
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    font-size: 1.3rem;
+    border: none;
+}
+
+#txt-search-task {
+    height: 2rem;
+    width: 100%;
+    font-size: 1.3rem;
+    padding-left: .4rem;
+    outline: none;
+}
+
+.task-list .task {
+    background-color: var(--color-primary);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.task-list .task .task-text {
+    color: var(--color-text);
+    font-size: 1.5rem;
+    max-width: 85%;
+}
+
+.task-list .task .task-icon {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-circle-check {
+    font-size: 3rem;
+    color: var(--color-info-success);
+}
+
+#btn-all-tasks-complete {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    color: var(--color-text);
+    background-color: var(--color-info-success);
+    font-size: 1.3rem;
+}
+
+#btn-all-tasks-remove {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    color: var(--color-text);
+    background-color: var(--color-info-danger);
+    font-size: 1.3rem;
+}
+
+.fa-trash-can {
+    font-size: 3rem;
+    color: var(--color-info-danger);
+}
+
+@media screen and (min-width:1024px) {
+    main,
+    .container-logo {
+        width: 1024px;
+        margin: auto;
+    }
+}
