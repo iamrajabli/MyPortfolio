@@ -1,0 +1,6 @@
+@import url('../../assets/css/style.css');
+.container {
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+}

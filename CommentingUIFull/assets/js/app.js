@@ -1,4 +1,5 @@
 'use strict';
+
 class Comment {
     constructor(comment) {
         this.id = new Date().getTime();
@@ -25,14 +26,24 @@ class Control {
 
 class Screen {
     constructor() {
-        this.form = document.querySelector('.write-comment form');
+        // write-comment
+        this.writeCommentShadow = document.querySelector('write-comment').shadowRoot;
+        this.form = this.writeCommentShadow.querySelector('.write-comment form');
         this.form.addEventListener('submit', this.prepare.bind(this));
-        this.input = document.querySelector('.write-comment input');
-        this.all_comments_content = document.querySelector('.all-comments-content');
-        this.all_comments_content.addEventListener('click', this.removeComment.bind(this));
-        this.countOfComment = document.getElementById('countComment');
-        this.enter = document.getElementById('enter');
+        this.input = this.writeCommentShadow.querySelector('.write-comment input');
+        this.enter = this.writeCommentShadow.getElementById('enter');
         this.enter.addEventListener('click', this.prepare.bind(this));
+
+        // all-comments-content
+        this.allCommentsContentShadow = document.querySelector('all-comments-content').shadowRoot;
+        this.allCommentsContent = this.allCommentsContentShadow.querySelector('.all-comments-content');
+        this.allCommentsContent.addEventListener('click', this.removeComment.bind(this));
+
+        // all-comments-sort
+        this.allCommentsSortShadow = document.querySelector('all-comments-sort').shadowRoot;
+        this.countOfComment = this.allCommentsSortShadow.getElementById('countComment');
+
+
         this.commentLS = new LS();
         this.showComments();
     }
@@ -56,7 +67,7 @@ class Screen {
 
         div.innerHTML = `
         <div class="all-comments-content-item-pp">
-        <img src="img/1.jpg" alt="">
+        <img src="./assets/img/1.jpg" alt="">
         </div>
 
         <div class="all-comments-content-details">
@@ -70,8 +81,8 @@ class Screen {
             </div>
         </div>
         `
-        this.all_comments_content.insertBefore(div, this.all_comments_content.children[0]);
-        // this.all_comments_content.appendChild(div);
+        this.allCommentsContent.insertBefore(div, this.allCommentsContent.children[0]);
+        // this.allCommentsContent.appendChild(div);
         this.input.value = '';
         let i = parseInt(this.countOfComment.textContent);
         this.countOfComment.textContent = i += 1;
@@ -124,4 +135,6 @@ class LS {
 
 }
 
-document.addEventListener('DOMContentLoaded', () => { new Screen });
+document.addEventListener('DOMContentLoaded', () => {
+    new Screen
+});

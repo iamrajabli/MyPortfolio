@@ -1,0 +1,50 @@
+@import url('../../assets/css/style.css');
+.all-comments-content-item-pp {
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+    pointer-events: none;
+}
+
+.all-comments-content-item-pp img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.all-comments-content-item {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.all-comments-content-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.all-comments-content-details {
+    width: 600px;
+    pointer-events: none;
+}
+
+.all-comments-content-details-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    pointer-events: none;
+}
+
+.all-comments-content-details-header h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.all-comments-content-details-header span {
+    color: rgb(75, 75, 75);
+    font-weight: 500;
+}
+
+.all-comments-content-details-comment span {
+    line-height: 20px;
+    font-size: 15px;
+}

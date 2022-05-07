@@ -1,0 +1,29 @@
+@import url('../../assets/css/style.css');
+.all-comments-sort {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(136, 136, 136);
+}
+
+.all-comments-sort>ul {
+    cursor: pointer;
+}
+
+.all-comments-sort .dropdown ul {
+    visibility: hidden;
+}
+
+.all-comments-sort .dropdown:hover ul {
+    visibility: visible;
+}
+
+.all-comments-sort .dropdown li:hover {
+    color: black;
+}
+
+.all-comments-sort .dropdown li {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 10 0px;
+    transition: all 200ms linear;
+}
