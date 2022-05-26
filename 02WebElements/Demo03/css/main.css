@@ -1,0 +1,222 @@
+@import url("reset.css");
+html {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: black;
+}
+
+#demo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+#demo > h2 {
+  width: 100%;
+  background-color: #24cf5f;
+  padding: 14px 0;
+  font-weight: 500;
+  font-size: 18.2px;
+  text-align: center;
+  color: white;
+}
+
+#demo .container {
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#demo .demo-container-item:not(.demo-container-item:last-child) {
+  margin-right: 21px;
+}
+
+#demo .demo-container-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 28px;
+  cursor: pointer;
+  position: relative;
+}
+
+#demo .demo-container-item::after {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2px solid transparent;
+}
+
+#demo .demo-container-item::before {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-left: 2px solid transparent;
+}
+
+#demo .demo-container-item:hover::after {
+  border-color: #24cf5f;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+}
+
+#demo .demo-container-item:hover::before {
+  border-color: #24cf5f;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  -webkit-transition-delay: .1s;
+          transition-delay: .1s;
+}
+
+#demo .demo-container-item:hover .action::after {
+  width: 100%;
+  height: 100%;
+  border-color: #24cf5f;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#demo .demo-container-item:hover .action::before {
+  width: 100%;
+  height: 100%;
+  border-color: #24cf5f;
+  -webkit-transition: all 100ms ease;
+  transition: all 100ms ease;
+  -webkit-transition-delay: .2s;
+          transition-delay: .2s;
+}
+
+#demo .demo-container-item .action {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#demo .demo-container-item .action::after {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: 2px solid transparent;
+}
+
+#demo .demo-container-item .action::before {
+  width: 0;
+  height: 0;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 2px solid transparent;
+}
+
+#demo .demo-container-item i {
+  width: 130px;
+  height: 130px;
+  font-size: 56px;
+  color: #24cf5f;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#demo .demo-container-item h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: black;
+  margin: 28px;
+}
+
+#demo .demo-container-item span {
+  color: #919191;
+  text-align: center;
+  line-height: 18.2px;
+  font-weight: 400;
+}
+
+#demo .demo-container-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  margin-top: 28px;
+  text-decoration: none;
+  background-color: #24cf5f;
+  border-radius: 28px;
+  color: white;
+}
+
+#demo .demo-container-item a:hover {
+  background-color: #5fd689;
+}
+
+#demo .demo-title {
+  margin: 56px 0;
+  text-align: center;
+}
+
+#demo .demo-title h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 9.8px;
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

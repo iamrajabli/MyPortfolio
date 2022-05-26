@@ -1,0 +1,88 @@
+.btn {
+    color: var(--btn-color);
+    text-decoration: var(--btn-text-decoration);
+    font-weight: var(--font-weight-500);
+    border-radius: var(--btn-border-radius);
+    border: var(--btn-border-height) var(--btn-border-style) var(--btn-border-color);
+    padding: var(--padding-xs) var(--padding-xl);
+    transition: all var(--btn-transition-speed) var(--btn-transition-style);
+}
+
+.btn-register:hover {
+    background-color: var(--btn-register-hover);
+}
+
+.btn-general {
+    background-color: var(--btn-sign-color);
+}
+
+.btn-general:hover {
+    background-color: var(--btn-sign-hover);
+}
+
+.btn-sign {
+    background-color: var(--btn-sign-in-bg);
+    padding: var(--padding-s) var(--padding-xl) !important;
+}
+
+.btn-sign:hover {
+    background-color: #6b89c8;
+}
+
+.btn-again {
+    background-color: rgb(252, 46, 46);
+}
+
+.btn-again:hover {
+    background-color: rgb(182, 0, 0);
+}
+
+.btn-update {
+    background-color: rgb(182, 0, 0);
+    display: none;
+}
+
+::placeholder {
+    font-family: var(--font-family);
+    font-size: var(--font);
+}
+
+.successfuly {
+    background-color: rgb(16, 202, 16) !important;
+    color: white !important;
+    border: 1px solid rgb(16, 202, 16) !important
+}
+
+.error {
+    background-color: rgb(241, 49, 49) !important;
+    color: white !important;
+    border: 1px solid rgb(241, 49, 49) !important
+}
+
+.required {
+    display: none;
+    font-size: 10px !important;
+}
+
+.error__block {
+    background-color: rgb(255, 70, 70);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+    display: none;
+}
+
+.success__block {
+    background-color: rgb(25, 184, 0);
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    display: none;
+}

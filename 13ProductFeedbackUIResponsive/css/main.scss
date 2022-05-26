@@ -1,0 +1,170 @@
+@import url('reset.css');
+@import 'variables';
+@import 'mixin';
+html {
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $background-color;
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: $width-container;
+    margin: auto;
+}
+
+#roadmap {
+    margin-top: $margin-l;
+    .container {
+        @include flex-between-center();
+        background-color: $container-background;
+        padding: $padding-l $padding-m;
+        box-sizing: border-box;
+        border-radius: $font-size-xs;
+        .roadmap-left {
+            h3 {
+                margin-bottom: $margin-s;
+                font-weight: $font-weight-500;
+                i {
+                    margin-right: $margin-s;
+                }
+            }
+            h1 {
+                font: {
+                    size: $font-size-s;
+                    weight: $font-weight-500
+                }
+            }
+        }
+        .roadmap-right {
+            a {
+                color: $text-color;
+                text-decoration: none;
+                background-color: $button-color;
+                border-radius: $font-size-xs;
+                padding: $padding $padding-s;
+                font-weight: $font-weight-500;
+            }
+        }
+    }
+}
+
+#main {
+    color: $text-second-color;
+    .container {
+        @include flex-start-start();
+    }
+    .planned-header,
+    .in-progress-header,
+    .live-header {
+        h3 {
+            margin: $margin-m 0 $margin 0;
+            font-weight: $font-weight-600;
+        }
+    }
+    .planned,
+    .in-progress,
+    .live {
+        width: 300px;
+    }
+    .planned,
+    .in-progress {
+        margin-right: 10px;
+    }
+    .planned {
+        .content {
+            &::after {
+                background-color: $planned-color;
+            }
+            h4 {
+                i {
+                    color: $planned-color;
+                }
+            }
+        }
+    }
+    .in-progress {
+        .content {
+            &::after {
+                background-color: $in-progress-color;
+            }
+            h4 {
+                i {
+                    color: $in-progress-color;
+                }
+            }
+        }
+    }
+    .live {
+        .content {
+            &::after {
+                background-color: $live-color;
+            }
+            h4 {
+                i {
+                    color: $live-color;
+                }
+            }
+        }
+    }
+}
+
+.content {
+    @include content;
+    min-height: 266px;
+    margin-top: $margin-m;
+    border-top-left-radius: $font-size-xs;
+    border-top-right-radius: $font-size-xs;
+    &::after {
+        @include content-after;
+    }
+    h4 {
+        @include flex-start-center();
+        margin-bottom: $margin;
+        i {
+            font-size: $font-size-xxs;
+            margin-right: $margin;
+        }
+    }
+    h5 {
+        font-weight: $font-weight-600;
+        margin-bottom: $margin;
+    }
+    span {
+        color: $text-third-color;
+        display: block;
+        margin: $margin 0;
+    }
+    a {
+        display: inline-block;
+        background-color: #F2F4FF;
+        text-decoration: none;
+        color: #4661E6;
+        font-weight: $font-weight-500;
+        padding: $padding;
+        margin-top: $margin;
+        border-radius: $font-size-xxs;
+        i {
+            margin-right: $margin;
+        }
+    }
+    .rew {
+        margin-top: $margin;
+        @include flex-between-center();
+        h3 {
+            @include flex-center-center();
+        }
+        .fa-comment {
+            font-size: $font-size-s;
+            color: $text-third-color;
+            margin-right: $margin;
+        }
+    }
+}
+
+@import 'responsive';

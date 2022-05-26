@@ -1,0 +1,179 @@
+@import url("reset.css");
+html {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: white;
+}
+
+#demo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+#demo h2:first-child {
+  width: 100%;
+  background-color: #1997d3;
+  padding: 14px 0;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+}
+
+#demo .container {
+  width: 1170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#demo .demo-container-item:not(.demo-container-item:last-child) {
+  margin-right: 21px;
+}
+
+#demo .demo-container-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 21px;
+  background-color: #1997d3;
+  position: relative;
+  cursor: pointer;
+}
+
+#demo .demo-container-item::after {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  border: 2px solid #b7e8ff;
+  content: '';
+  top: 10px;
+  opacity: .6;
+  z-index: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+#demo .demo-container-item:hover a {
+  background-color: #b7e8ff;
+  color: #1997d3;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+#demo .demo-container-item:hover .action {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+#demo .demo-container-item:hover::after {
+  border: 5px solid #b7e8ff;
+}
+
+#demo .demo-container-item .action {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 18px;
+  background-color: #20b7ff;
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+
+#demo .demo-container-item i {
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  font-size: 56px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#demo .demo-container-item h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  margin: 9.8px 0 21px 0;
+  z-index: 1;
+}
+
+#demo .demo-container-item span {
+  z-index: 1;
+  color: white;
+  text-align: center;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+#demo .demo-container-item a {
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 50px;
+  margin: 21px 0 9.8px 0;
+  text-decoration: none;
+  background-color: #1997d3;
+  color: white;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+
+#demo .demo-title {
+  margin: 56px 0;
+  text-align: center;
+}
+
+#demo .demo-title h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 9.8px;
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/quiz.css">
+    <title>Quiz APP Dashboard</title>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="container__flex">
+            <div class="navbar__logo">
+                Admin Panel
+            </div>
+            <div class="navbar__options">
+                <a href="index.html" class="btn btn-general">Admin Panel</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="question">
+        <span id="quizId"></span>
+        <div class="question__container">
+            <div class="question__header">
+                <div class="question__desc">
+                    undefined
+                </div>
+
+            </div>
+            <div class="question__content">
+                <div class="question__answer">
+                    <span>A</span>
+                    <p id="A" class="answer">Answer 1</p>
+                </div>
+                <div class="question__answer">
+                    <span>B</span>
+                    <p id="B" class="answer">Answer 2</p>
+                </div>
+                <div class="question__answer">
+                    <span>C</span>
+                    <p id="C" class="answer">Answer 3</p>
+                </div>
+                <div class="question__answer">
+                    <span>D</span>
+                    <p id="D" class="answer">Answer 4</p>
+                </div>
+            </div>
+        </div>
+        <div class="question__score">
+            <div class="total__header">
+                Total Score
+            </div>
+            <div class="total__score">
+                30
+            </div>
+            <div class="question__managment">
+                <a href="#" id="againQuiz" class="btn btn-again">Again</a>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/quiz.js "></script>
+</body>
+
+</html>

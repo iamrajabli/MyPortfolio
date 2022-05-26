@@ -1,0 +1,217 @@
+$font-family: 'Poppins';
+$font-color: #262626;
+$btn-hover: #262626;
+$sale-bg-color: #f34723;
+$hover: #ebb5ac;
+$container-width: 1170px;
+$white: #ffffff;
+$size: 14px;
+$font-xs: 300;
+$font-sm: 400;
+$font-md: 500;
+$font-lg: 600;
+$font-xl: 700;
+$font-size-x: $size * 0.725;
+$font-size-xs: $size * 0.5;
+$font-size-s: $size * 0.9;
+$font-size-sm: $size * 1.1;
+$font-size-md: $size * 1.5;
+$font-size-lg: $size * 2;
+$font-size-xl: $size * 2.25;
+$padding-xxs: $size * 0.2;
+$padding-xs: $size * 0.5;
+$padding-sm: $size * 1.1;
+$padding-md: $size * 1.5;
+$padding-lg: $size * 2;
+$padding-xl: $size * 2.25;
+$margin-xs: $size * 0.5;
+$margin-sm: $size * 1.25;
+$margin-md: $size * 1.5;
+$margin-lg: $size * 2;
+$margin-xl: $size * 2.25;
+@mixin flex-between-center {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin item-size {
+    width: 270px;
+}
+
+@mixin size-inherit {
+    width: 100%;
+    height: 347px;
+}
+
+#product_list {
+    position: relative;
+    width: $container-width;
+    margin: $margin-lg auto;
+    &:hover {
+        .arrow {
+            opacity: .9;
+            cursor: pointer;
+            &:hover {
+                background-color: $hover;
+                color: $btn-hover;
+            }
+        }
+    }
+    .btn-slide {
+        width: 100%;
+        @include flex-between-center();
+        position: absolute;
+        top: 30%;
+    }
+    .arrow {
+        transition: all 300ms linear;
+        width: 40px;
+        z-index: 2;
+        height: 40px;
+        background-color: #888888;
+        color: $white;
+        font-size: $font-size-md;
+        opacity: 0;
+        @include flex-center-center();
+    }
+    .container {
+        width: inherit;
+        @include flex-between-center();
+        color: $font-color;
+        position: relative;
+        font: {
+            family: $font-family;
+            size: $size;
+        }
+        .product_item {
+            cursor: pointer;
+            @include item-size();
+            padding: 10px;
+            border: 1px solid RGBA(255, 255, 255, 0);
+            &:hover {
+                border: 1px solid rgb(233, 229, 229);
+                box-shadow: 0px 0px 1px 0px;
+                transition: all 200ms linear;
+                .btn-primary {
+                    opacity: 1;
+                    transition: all 200ms linear;
+                }
+                .product_item--img {
+                    img:nth-child(1) {
+                        opacity: 0;
+                        transition: all 200ms linear;
+                    }
+                    .hover-icons {
+                        transition: all 300ms linear;
+                        transform: scale(1);
+                        top: 37px;
+                    }
+                }
+            }
+        }
+        .product_item--img {
+            @include size-inherit();
+            position: relative;
+            img:nth-child(1) {
+                @include size-inherit();
+                position: absolute;
+                z-index: 1;
+            }
+            img:nth-child(2) {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                @include size-inherit();
+            }
+            .product_item--sale {
+                background-color: $sale-bg-color;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                padding: $padding-xs $size;
+                color: $white;
+                font-size: $font-size-s;
+                z-index: 1
+            }
+            .product_item--icons {
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                @include flex-center-center();
+                .far {
+                    display: block;
+                    margin-bottom: $margin-xs;
+                    width: 30px;
+                    height: 30px;
+                    background-color: $white;
+                    border-radius: 50%;
+                    font-size: $font-size-sm;
+                    @include flex-center-center();
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $hover;
+                    }
+                }
+                .hover-icons {
+                    position: absolute;
+                    top: -30px;
+                    transform: scale(0);
+                }
+            }
+        }
+        .product_item--stars,
+        .product_item--name,
+        .product_item--price {
+            margin: $size 0;
+        }
+        .product_item--name {
+            text-decoration: none;
+            color: $font-color;
+            &:hover {
+                color: $hover;
+            }
+        }
+        .product_item--stars {
+            font-size: $font-size-x;
+            color: #888888;
+            opacity: .9;
+            .super--stars {
+                color: $hover !important;
+            }
+        }
+        .product_item--price {
+            font-size: $font-size-sm;
+            .product_item--old {
+                text-decoration: line-through;
+                color: #888888;
+                opacity: .9;
+            }
+            .product_item--new {
+                font-weight: $font-lg;
+            }
+        }
+        .btn-primary {
+            text-decoration: none;
+            font-weight: $font-lg;
+            color: $font-color;
+            width: 100%;
+            height: 40px;
+            background-color: $hover;
+            display: block;
+            opacity: 0;
+            @include flex-center-center();
+            &:hover {
+                background-color: $btn-hover;
+                color: $white;
+                font-weight: $font-md;
+            }
+        }
+    }
+}

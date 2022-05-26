@@ -1,0 +1,425 @@
+@import url("reset.css");
+html {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: #fff;
+  background-color: #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+#roadmap {
+  margin-top: 42px;
+}
+
+#roadmap .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #373F68;
+  padding: 42px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 11.2px;
+}
+
+#roadmap .container .roadmap-left h3 {
+  margin-bottom: 21px;
+  font-weight: 500;
+}
+
+#roadmap .container .roadmap-left h3 i {
+  margin-right: 21px;
+}
+
+#roadmap .container .roadmap-left h1 {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+#roadmap .container .roadmap-right a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #AD1FEA;
+  border-radius: 11.2px;
+  padding: 14px 21px;
+  font-weight: 500;
+}
+
+#main {
+  color: #373F68;
+}
+
+#main .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#main .planned-header h3,
+#main .in-progress-header h3,
+#main .live-header h3 {
+  margin: 28px 0 14px 0;
+  font-weight: 600;
+}
+
+#main .planned,
+#main .in-progress,
+#main .live {
+  width: 300px;
+}
+
+#main .planned,
+#main .in-progress {
+  margin-right: 10px;
+}
+
+#main .planned .content::after {
+  background-color: #F49F85;
+}
+
+#main .planned .content h4 i {
+  color: #F49F85;
+}
+
+#main .in-progress .content::after {
+  background-color: #AD1FEA;
+}
+
+#main .in-progress .content h4 i {
+  color: #AD1FEA;
+}
+
+#main .live .content::after {
+  background-color: #62BCFA;
+}
+
+#main .live .content h4 i {
+  color: #62BCFA;
+}
+
+.content {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  margin-top: 14px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 21px 21px;
+  min-height: 266px;
+  margin-top: 28px;
+  border-top-left-radius: 11.2px;
+  border-top-right-radius: 11.2px;
+}
+
+.content::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  border-top-left-radius: 11.2px;
+  border-top-right-radius: 11.2px;
+}
+
+.content h4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+}
+
+.content h4 i {
+  font-size: 7px;
+  margin-right: 14px;
+}
+
+.content h5 {
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.content span {
+  color: #647196;
+  display: block;
+  margin: 14px 0;
+}
+
+.content a {
+  display: inline-block;
+  background-color: #F2F4FF;
+  text-decoration: none;
+  color: #4661E6;
+  font-weight: 500;
+  padding: 14px;
+  margin-top: 14px;
+  border-radius: 7px;
+}
+
+.content a i {
+  margin-right: 14px;
+}
+
+.content .rew {
+  margin-top: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .rew h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content .rew .fa-comment {
+  font-size: 21px;
+  color: #647196;
+  margin-right: 14px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 600px;
+  }
+  #roadmap .container {
+    padding: 28px 21px;
+  }
+  #roadmap .container .roadmap-left h3 {
+    margin-bottom: 14px;
+    font-size: 11.2px;
+  }
+  #roadmap .container .roadmap-left h1 {
+    font-size: 14px;
+  }
+  #roadmap .container .roadmap-right a {
+    padding: 7px 7px;
+    font-weight: 500;
+    font-size: 11.2px;
+  }
+  #main .container .planned-header h3,
+  #main .container .in-progress-header h3,
+  #main .container .live-header h3 {
+    font-size: 11.2px;
+  }
+  #main .container .planned-header span,
+  #main .container .in-progress-header span,
+  #main .container .live-header span {
+    font-size: 11.2px;
+  }
+  #main .planned,
+  #main .in-progress,
+  #main .live {
+    width: 200px;
+  }
+  .content {
+    min-height: 200px;
+    padding: 21px 14px;
+  }
+  .content h4 {
+    font-size: 10px;
+  }
+  .content h5 {
+    font-weight: 600;
+    font-size: 9px;
+  }
+  .content span {
+    font-size: 9px;
+  }
+  .content a {
+    padding: 7px 14px;
+    font-size: 11.2px;
+    margin-top: 9.8px;
+  }
+  .content .rew h3 {
+    font-size: 10px;
+  }
+  .content .rew h3 .fa-comment {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 450px;
+  }
+  #main .container .planned-header h3,
+  #main .container .in-progress-header h3,
+  #main .container .live-header h3 {
+    font-size: 10px;
+  }
+  #main .container .planned-header span,
+  #main .container .in-progress-header span,
+  #main .container .live-header span {
+    font-size: 8px;
+  }
+  #main .planned,
+  #main .in-progress,
+  #main .live {
+    width: 150px;
+  }
+  .content {
+    min-height: 170px;
+    padding: 21px 14px;
+  }
+  .content h4 {
+    font-size: 9px;
+  }
+  .content h5 {
+    font-weight: 600;
+    font-size: 7px;
+  }
+  .content span {
+    font-size: 7px;
+  }
+  .content a {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 7px;
+  }
+  .content .rew {
+    margin-top: 0px;
+  }
+  .content .rew h3 .fa-comment {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 468px) {
+  body {
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 90%;
+  }
+  #main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #main .planned,
+  #main .in-progress,
+  #main .live {
+    width: 100%;
+  }
+  #main .planned-header,
+  #main .in-progress-header,
+  #main .live-header {
+    margin-top: 20px;
+  }
+  #main .planned-header h3,
+  #main .planned-header span,
+  #main .in-progress-header h3,
+  #main .in-progress-header span,
+  #main .live-header h3,
+  #main .live-header span {
+    display: inline;
+  }
+  #main .content {
+    margin-top: 10px;
+  }
+  #main .rew {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 250px) {
+  body {
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 90%;
+  }
+  #main .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #main .planned,
+  #main .in-progress,
+  #main .live {
+    width: 300px;
+  }
+  #main .planned-header,
+  #main .in-progress-header,
+  #main .live-header {
+    margin-top: 20px;
+  }
+  #main .planned-header h3,
+  #main .planned-header span,
+  #main .in-progress-header h3,
+  #main .in-progress-header span,
+  #main .live-header h3,
+  #main .live-header span {
+    display: inline;
+  }
+  #main .content {
+    margin-top: 10px;
+  }
+  #main .rew {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

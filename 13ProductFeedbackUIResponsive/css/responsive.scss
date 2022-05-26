@@ -1,0 +1,200 @@
+@media (max-width: 992px) {
+    .container {
+        width: 600px;
+    }
+    #roadmap {
+        .container {
+            padding: $padding-m $padding-s;
+            .roadmap-left {
+                h3 {
+                    margin-bottom: $margin;
+                    font-size: $font-size-xs;
+                }
+                h1 {
+                    font-size: $font-size;
+                }
+            }
+            .roadmap-right {
+                a {
+                    padding: $padding-xs $padding-xs;
+                    font: {
+                        weight: $font-weight-500;
+                        size: $font-size-xs
+                    }
+                }
+            }
+        }
+    }
+    #main {
+        .container {
+            .planned-header,
+            .in-progress-header,
+            .live-header {
+                h3 {
+                    font-size: $font-size-xs;
+                }
+                span {
+                    font-size: $font-size-xs;
+                }
+            }
+        }
+        .planned,
+        .in-progress,
+        .live {
+            width: 200px;
+        }
+    }
+    .content {
+        min-height: 200px;
+        padding: $padding-s $padding;
+        h4 {
+            font-size: 10px;
+        }
+        h5 {
+            font: {
+                weight: $font-weight-600;
+                size: 9px;
+            }
+        }
+        span {
+            font-size: 9px;
+        }
+        a {
+            padding: $padding-xs $padding;
+            font-size: $font-size-xs;
+            margin-top: $margin-xs;
+        }
+        .rew {
+            h3 {
+                font-size: 10px;
+                .fa-comment {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 450px;
+    }
+    #main {
+        .container {
+            .planned-header,
+            .in-progress-header,
+            .live-header {
+                h3 {
+                    font-size: 10px;
+                }
+                span {
+                    font-size: 8px;
+                }
+            }
+        }
+        .planned,
+        .in-progress,
+        .live {
+            width: 150px;
+        }
+    }
+    .content {
+        min-height: 170px;
+        padding: $padding-s $padding;
+        h4 {
+            font-size: 9px;
+        }
+        h5 {
+            font: {
+                weight: $font-weight-600;
+                size: 7px;
+            }
+        }
+        span {
+            font-size: 7px;
+        }
+        a {
+            margin-top: 5px;
+            padding: 5px 10px;
+            font-size: 7px;
+        }
+        .rew {
+            margin-top: 0px;
+            h3 {
+                .fa-comment {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 468px) {
+    body {
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    #main {
+        .container {
+            flex-direction: column;
+            @include flex-start-start()
+        }
+        .planned,
+        .in-progress,
+        .live {
+            width: 100%;
+        }
+        .planned-header,
+        .in-progress-header,
+        .live-header {
+            margin-top: 20px;
+            h3,
+            span {
+                display: inline;
+            }
+        }
+        .content {
+            margin-top: 10px;
+        }
+        .rew {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 250px) {
+    body {
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 90%;
+    }
+    #main {
+        .container {
+            flex-direction: column;
+            @include flex-start-start()
+        }
+        .planned,
+        .in-progress,
+        .live {
+            width: 300px;
+        }
+        .planned-header,
+        .in-progress-header,
+        .live-header {
+            margin-top: 20px;
+            h3,
+            span {
+                display: inline;
+            }
+        }
+        .content {
+            margin-top: 10px;
+        }
+        .rew {
+            margin-top: 20px;
+        }
+    }
+}

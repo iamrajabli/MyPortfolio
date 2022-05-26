@@ -1,0 +1,194 @@
+@import url('reset.css');
+
+$width-container: 1170px;
+$font-size: 14px;
+$font-family: 'Poppins';
+$text-color: #333;
+$width-100: 100%;
+$orange: orange;
+$white: white;
+$font-weight-300: 300;
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$text-second-color: #919191;
+$font-size-xs: $font-size * .5;
+$font-size-s: $font-size * 1.5;
+$font-size-m: $font-size * 2;
+$font-size-l: $font-size * 3;
+$font-size-xl: $font-size * 4;
+$padding: $font-size;
+$padding-xs: $font-size * .5;
+$padding-s: $font-size * 1.5;
+$padding-m: $font-size * 2;
+$padding-l: $font-size * 3;
+$padding-xl: $font-size * 4;
+$margin: $font-size;
+$margin-xs: $font-size * .7;
+$margin-s: $font-size * 1.5;
+$margin-m: $font-size * 2;
+$margin-l: $font-size * 3;
+$margin-xl: $font-size * 4;
+
+@mixin flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-between-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flex-start-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin icon-sizes {
+    width: 130px;
+    height: 130px;
+}
+
+@mixin transition-300ms-linear {
+    transition: all 300ms linear;
+}
+
+@mixin transition-100ms-linear {
+    transition: all 100ms linear;
+}
+
+@mixin button-sizes {
+    width: 150px;
+    height: 50px;
+}
+
+html {
+    font-size: $font-size;
+    font-family: $font-family;
+    color: $text-color;
+}
+
+#demo {
+
+   @include flex-start-center();
+   flex-direction: column;
+   min-height: 100vh;
+
+   h2:first-child {
+    width: $width-100;
+    background-color: $orange;
+    padding: $padding 0;
+    font-weight: $font-weight-500;
+    text-align: center;
+    color:$white;
+}
+   .container {
+    width: $width-container;
+    @include flex-between-center();
+}
+
+    .demo-container-item:not(.demo-container-item:last-child) {
+        margin-right: $margin-s;
+    }
+   .demo-container-item {
+    @include flex-between-center();
+    flex-direction: column;
+    padding: $padding-m;
+    box-shadow: 1px 2px 10px rgb(194, 193, 193);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+
+    &:hover {
+       
+
+        i {
+            border-color: $white;
+            color:$white;
+            @include transition-300ms-linear()
+
+        }
+
+        h2, span {
+            color:$white;
+            @include transition-100ms-linear()
+
+        }
+
+        a {
+            background-color: $white;
+            color:$orange;
+            @include transition-100ms-linear()
+
+        }
+
+        .action {
+            opacity: 1;
+            @include transition-300ms-linear();
+            top:0;
+        }
+    }
+
+    i {
+        @include icon-sizes();
+        font-size: $font-size-l;
+        color: $orange;
+        border-radius: 50%;
+        border: 3px solid $orange;
+        @include flex-center-center();
+    }
+    h2 {
+        font: {
+            size: $font-size-m;
+            weight: $font-weight-600;
+        }
+        margin: $margin-m;
+    }
+
+    span {
+        color: $text-second-color;
+        text-align: center;
+        line-height: $font-size-s;
+        font-weight: $font-weight-400;
+
+    }
+
+    a {
+        @include flex-center-center();
+        @include button-sizes();
+        margin-top: $margin-m;
+        text-decoration: none;
+        background-color: $orange;
+        color:$white;
+    }
+
+    .action {
+        position: absolute;
+        width: $width-100;
+        height: $width-100;
+        background-color: $orange;
+        top:$width-100;
+        z-index: -1;
+        opacity: 0;
+    }
+}
+   .demo-title {
+    margin: $margin-xl 0;
+    text-align: center;
+    h1 {
+        font-size: $font-size-m;
+        font-weight: $font-weight-600;
+        margin-bottom: $margin-xs;
+    }
+}
+
+}
+
+
+
+
+

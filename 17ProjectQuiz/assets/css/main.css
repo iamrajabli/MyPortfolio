@@ -1,0 +1,32 @@
+@import url('root.css');
+html {
+    font-family: var(--font-family);
+    font-size: var(--size);
+}
+
+.container__flex {
+    width: var(--container);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar {
+    background-color: var(--navbar-background);
+    color: var(--navbar-font-color);
+    height: var(--navbar-height);
+}
+
+#navbar .container__flex {
+    height: var(--navbar-container-height);
+}
+
+.navbar__logo {
+    font-size: var(--font-xl);
+    font-weight: var(--font-weight-600);
+}
+
+.navbar__options a:not(:last-child) {
+    margin-right: var(--margin-xs);
+}

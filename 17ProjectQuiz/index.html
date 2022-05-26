@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <title>Quiz APP Dashboard</title>
+</head>
+
+<body>
+    <section id="navbar">
+        <div class="container__flex">
+            <div class="navbar__logo">
+                Admin Panel
+            </div>
+            <div class="navbar__options">
+                <a href="#" id="logOut" class="btn btn-general">Log out</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="quizContainer">
+        <section id="quizzes">
+            <h1>My Quizzes</h1>
+            <span>Choose a quiz to edit, view and manage.</span>
+            <a href="#" id="addQuiz" class="btn btn-general">+ Create a quiz</a>
+        </section>
+
+        <section id="quizCreate">
+            <div class="success__block">
+                <h3>You have successfully created a quiz!</h3>
+            </div>
+            <div class="quiz__item">
+                <span>Enter quiz name: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" id='quizName' placeholder="Enter quiz name">
+            </div>
+            <div class="quiz__item">
+                <span>Enter quiz description: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" class="quiz__desc" id='quizDesc' placeholder="Enter quiz description">
+            </div>
+            <div class="quiz__item">
+                <span>Enter A: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" id='A' placeholder="Enter A">
+            </div>
+            <div class="quiz__item">
+                <span>Enter B: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" id='B' placeholder="Enter B">
+            </div>
+            <div class="quiz__item">
+                <span>Enter C: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" id='C' placeholder="Enter C">
+            </div>
+            <div class="quiz__item">
+                <span>Enter D: <span>*</span><span class="required"> Required area!</span></span>
+                <input type="text" id='D' placeholder="Enter D">
+            </div>
+            <div class="quiz__item">
+                <span>Enter correct answer: <span>*</span><span class="required"> Required area!</span></span>
+                <select id="correctAnswer">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+            </div>
+            <a href="#" id="createOrUpdateBtn" class="btn btn-general">Create</a>
+        </section>
+
+        <section id="quizList">
+            <div class="quiz__search">
+                <div class="quiz__block">
+                    <input type="text" placeholder="Enter search term">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="no__quiz">
+                <h1>Create a new quiz!</h1>
+            </div>
+
+
+        </section>
+    </section>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

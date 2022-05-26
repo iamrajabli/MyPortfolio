@@ -100,7 +100,7 @@ class Screen {
 
             }
 
-        }, 1)
+        }, 1000)
     }
 
     pomodoroReset(thatPomodoro) {

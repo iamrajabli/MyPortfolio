@@ -1,0 +1,74 @@
+body {
+    background-color: var(--main-bg);
+}
+
+#sign {
+    width: var(--sign-width);
+    margin: var(--margin-xl) auto;
+    text-align: var(--sign-text-align);
+}
+
+#sign h1 {
+    color: var(--sign-header-color);
+    font-size: var(--font-xl);
+    margin-bottom: var(--margin-m);
+    font-weight: var(--font-weight-500);
+}
+
+#sign>span {
+    display: var(--sign-description-display);
+    color: var(--sign-description-color);
+    margin-bottom: var(--margin-m);
+    font-size: var(--font-s);
+}
+
+.sign__container {
+    background-color: var(--sign-container-bg);
+    text-align: var(--sign-container-text-align);
+    border-radius: var(--sign-container-border-radius);
+    padding: var(--padding-xxl) var(--padding-xxxl);
+}
+
+.sign__container>span {
+    font-size: var(--font-sm);
+}
+
+.sign__container a:last-child {
+    color: var(--sign-container-sign-up-color);
+    text-decoration: var(--sign-container-text-decoration);
+}
+
+.sign__container a:last-child:hover {
+    text-decoration: var(--sign-container-hover-text-decoration);
+}
+
+.sign__item {
+    text-align: var(--sign-item-text-align) !important;
+}
+
+.sign__item input {
+    width: var(--sign-item-input-width);
+    height: var(--sign-item-input-height);
+    border: var(--sign-item-input-border);
+    border-bottom: var(--sign-item-input-border-bottom-height) var(--sign-item-input-border-bottom-style) var(--sign-item-input-border-bottom-color);
+    outline: var(--sign-item-input-outline);
+    box-sizing: border-box;
+    margin-bottom: var(--margin-xxl);
+    font-size: var(--size);
+    font-family: var(--font-family);
+}
+
+.sign__item>span {
+    display: var(--sign-item-span-display);
+    color: var(--sign-item-span-color);
+    font-size: var(--font-sm);
+}
+
+.sign__item span>span {
+    color: var(--sign-item-span-required-color)
+}
+
+.sign__container a:not(:last-child) {
+    margin-bottom: var(--margin-m);
+    display: block;
+}

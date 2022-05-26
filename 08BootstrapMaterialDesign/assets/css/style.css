@@ -1,0 +1,212 @@
+@import url('./cdn.css');
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: #EEEEEE;
+}
+
+#common {
+    width: 750px;
+    margin: 4rem auto;
+    padding: 3rem 1.5rem;
+    background-color: #E85460;
+    box-shadow: 0px 0px 6px 2px grey;
+}
+
+.common__personal--tab,
+.common__social--tab,
+.common__confirm--tab {
+    display: none;
+}
+
+.common__header {
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+}
+
+.common__header h2 {
+    font-size: 1.5rem;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: .8rem;
+    position: relative;
+}
+
+.common__header h5 {
+    color: #333333;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.common__managment {
+    width: 100%;
+    display: flex;
+    gap: 1px;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-managment {
+    width: 25%;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #bf434c;
+    /* box-shadow: 0 2px 0px 0 rgba(0, 0, 0, 0.3); */
+}
+
+i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #d32f2f;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    margin-right: .3rem;
+    pointer-events: none;
+}
+
+.common__control,
+.tab__header,
+.common__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.tab__header span:first-child {
+    color: white;
+}
+
+.tab__header span:last-child {
+    color: #555555;
+}
+
+.btn-control {
+    padding: .4rem .7rem;
+    border: 1px solid white;
+    border-radius: 3rem;
+    background-color: #d32f2f;
+}
+
+.active {
+    background-color: #d32f2f !important;
+}
+
+.common__loading {
+    background-color: #dc4d57;
+    height: 1rem;
+    margin: 1rem 0;
+}
+
+.common__loading--bar {
+    background-color: #d32f2f;
+    width: 25%;
+    height: 100%;
+    transition: all 200ms linear;
+}
+
+.common__container {
+    margin: 2rem 0;
+}
+
+.common__item {
+    margin-bottom: 3.3rem;
+    text-align: right;
+}
+
+.common__item span {
+    color: white;
+    width: 18%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.common__item input {
+    width: 586px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: #f77780;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    transition: all 200ms linear;
+}
+
+.common__item>span {
+    /* margin-top: -20px; */
+}
+
+.input__box span {
+    width: 140px;
+    display: none;
+    border-radius: 5px;
+    font-size: .7rem;
+    background-color: rgba(218, 58, 69, 0.5);
+    padding: .3rem .5rem;
+    margin-top: .4rem;
+}
+
+
+/* .input__box {
+    position: relative;
+}
+
+.input__box::after {
+    width: 100%;
+    height: 1px;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+} */
+
+.input__box {
+    text-align: left;
+}
+
+.input__box input {
+    display: block;
+}
+
+.common__container input:focus {
+    background-color: #dc4d57;
+}
+
+.common__confirm--tab .common__container span {
+    text-align: left;
+    margin-top: 0px !important;
+}
+
+.common__confirm--tab .common__item {
+    margin-bottom: 0 !important;
+    padding: 1rem;
+}
+
+.common__confirm--tab .common__item:hover {
+    background-color: #dc4d57 !important;
+}
+
+.common__confirm--tab .common__item span {
+    color: #333333 !important;
+    font-weight: 700 !important;
+}
+
+.common__confirm--tab .common__item:nth-child(odd) {
+    background-color: #f77881;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
