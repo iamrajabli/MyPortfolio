@@ -167,3 +167,22 @@
     - JS
 
 <hr>
+
+### 18 Project Food
+
+- 🔑 Source: [CODE](./18ProjectFood/) 🚀
+- 🔍 Used in the project:
+    - HTML
+    - CSS
+    - JS
+    - ES6 Modules
+    - Webpack
+    - JSON-Server
+
+```
+npm i
+npx json-server db.json
+```
+
+<hr>
+
