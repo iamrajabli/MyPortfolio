@@ -50,7 +50,6 @@ class Screen {
         e.preventDefault();
         const circleData = new CreateCircle(this._selector.value, this._radius.value, this._backgroundColor.value);
         this.result = Control.controlInputs(circleData._selector, circleData._radius);
-        console.log(this.result);
         if (this.result.status) {
             this.info(true, 'success')
             this.create(circleData);
@@ -112,29 +111,3 @@ class Screen {
 document.addEventListener('DOMContentLoaded', function() {
     new Screen();
 })
-
-// Sample
-// function createCircle(_selector, countChild, _radius, _backgroundColor) {
-//     const container = document.createElement(`${_selector}`);
-//     const circle = document.createElement('div');
-//     const childCircle = document.createElement('div');
-//     container.className = 'container';
-//     circle.className = 'circle';
-//     childCircle.className = 'childCircle';
-
-//     circle.style.borderRadius = `${_radius}%`;
-//     circle.style.backgroundColor = _backgroundColor;
-
-
-//     circle.appendChild(childCircle);
-//     container.appendChild(circle);
-//     document.querySelector('body').appendChild(container);
-
-//     for (let i = 0; i < countChild; i++) {
-//         let children = document.querySelectorAll('.childCircle');
-//         const childCircle = document.createElement('div');
-//         childCircle.className = 'childCircle';
-//         childCircle.style.borderRadius = `${_radius}%`;
-//         children[i].appendChild(childCircle);
-//     }
-// }

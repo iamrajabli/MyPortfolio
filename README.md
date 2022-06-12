@@ -3,6 +3,7 @@
 ### 01 E-commerce 🚀
 
 - 🔑 Source: [CODE](./01E-commerce/) 
+- 👁‍🗨 Live Preview: [SITE](https://limupa-ralorem.netlify.app)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -13,6 +14,7 @@
 ### 02 Web Elements 🚀
 
 - 🔑 Source: [CODE](./02WebElements/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/xxYmwve)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -22,6 +24,7 @@
 ### 03 Background Switcher 🚀
 
 - 🔑 Source: [CODE](./03BackgroundSwitcher/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/xxYmZKN)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -32,6 +35,7 @@
 ### 04 English vocabulary 🚀
 
 - 🔑 Source: [CODE](./04English-vocabulary/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/Yzedwzy)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -42,6 +46,7 @@
 ### 05 Slider 🚀
 
 - 🔑 Source: [CODE](./05Slider/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/VwQqeYL)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -52,6 +57,7 @@
 ### 06 Circle Generator 🚀
 
 - 🔑 Source: [CODE](./06CircleGenerator/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/ZErVQGq)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -62,6 +68,7 @@
 ### 07 Circle Game 🚀
 
 - 🔑 Source: [CODE](./07CircleGame/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/rNJoxOo)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -72,6 +79,7 @@
 ### 08 Bootstrap Material Design 🚀
 
 - 🔑 Source: [CODE](./08BootstrapMaterialDesign/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/NWyexxw)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -82,6 +90,7 @@
 ### 09 Pricing Table 🚀
 
 - 🔑 Source: [CODE](./09PricingTable/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/abqPddr)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -92,6 +101,7 @@
 ### 10 Commenting UI Full 🚀
 
 - 🔑 Source: [CODE](./10CommentingUIFull/) 
+- 👁‍🗨 Live Preview: [SITE](https://comment-app-ralorem.netlify.app)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -102,6 +112,7 @@
 ### 11 Movie Search App 🚀
 
 - 🔑 Source: [CODE](./11MovieSearchApp/) 
+- 👁‍🗨 Live Preview: [SITE](https://movie-app-ralorem.netlify.app)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -111,7 +122,7 @@
 
 <hr>
 
-### 12 PomodoroApp 🚀
+### 12 Pomodoro App 🚀
 
 - 🔑 Source: [CODE](./12PomodoroApp/) 
 - 🔍 Used in the project:
@@ -124,33 +135,37 @@
 ### 13 Product Feedback UI Responsive 🚀
 
 - 🔑 Source: [CODE](./13ProductFeedbackUIResponsive/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/YzedwWq)
 - 🔍 Used in the project:
     - HTML
     - CSS
 
 <hr>
 
-### 14 ProductListUI 🚀
+### 14 Product List UI 🚀
 
 - 🔑 Source: [CODE](./14ProductListUI/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/YzedwGq)
 - 🔍 Used in the project:
     - HTML
     - CSS
 
 <hr>
 
-### 15 TagSelectorSingleFull 🚀
+### 15 Tag Selector Single Full 🚀
 
 - 🔑 Source: [CODE](./15TagSelectorSingleFull/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/BaYvjLd)
 - 🔍 Used in the project:
     - HTML
     - CSS
 
 <hr>
 
-### 16 TagSelectorSingleFull 🚀
+### 16 Task Tracker 🚀
 
 - 🔑 Source: [CODE](./16TaskTracker/) 
+- 👁‍🗨 Live Preview: [SITE](https://codepen.io/iamrajabli/pen/KKQbVge)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -161,6 +176,7 @@
 ### 17 Project Quiz 🚀
 
 - 🔑 Source: [CODE](./17ProjectQuiz/) 
+- 👁‍🗨 Live Preview: [SITE](https://project-quiz-ralorem.netlify.app)
 - 🔍 Used in the project:
     - HTML
     - CSS
@@ -172,6 +188,7 @@
 
 - 🔑 Source: [CODE](./18ProjectFood/) 
 - 🔑 Source: [TEMPLATE](https://drive.google.com/file/d/1-mtd3uM3KwWSbzV47nIrv0W9rqM-NG9u/view?usp=sharing)
+- 👁‍🗨 Live Preview: [SITE](https://food-ralorem.netlify.app)
 - 🔍 Used in the project:
     - HTML
     - CSS
