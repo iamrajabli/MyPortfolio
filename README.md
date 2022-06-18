@@ -216,4 +216,8 @@ npx json-server db.json
     - ES6 MODULES
     - WEBPACK
 
-
+### 20 EmployeeManager  🚀 
+  - 🔑 Source: [CODE](./20EmployeeManager%5BREACT%5D/)
+  - 🔍 Used in the project:
+    - REACT
+    - CLASS COMPONENTS
