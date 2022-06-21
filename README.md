@@ -213,11 +213,20 @@ npx json-server db.json
     - CSS
     - SCSS
     - JS
+    - E-COMMERCE API (FETCH)
     - ES6 MODULES
     - WEBPACK
 
-### 20 EmployeeManager  🚀 
+### 20 Employee Manager  🚀 
   - 🔑 Source: [CODE](./20EmployeeManager%5BREACT%5D/)
   - 🔍 Used in the project:
     - REACT
     - CLASS COMPONENTS
+
+### 21 Marvel Project  🚀 
+  - 🔑 Source: [CODE](./21MarvelProject%5BREACT%5D/)
+  - 👁‍🗨 Live Preview: [SITE](https://marvel-ralorem.netlify.app)
+  - 🔍 Used in the project:
+    - REACT
+    - CLASS COMPONENTS
+    - MARVEL API (FETCH)
