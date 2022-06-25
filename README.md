@@ -219,7 +219,7 @@ npx json-server db.json
 
 <hr>
 
-### 20 Employee Manager  🚀 
+### 20 Employee Manager with React  🚀 
   - 🔑 Source: [CODE](./20EmployeeManager%5BREACT%5D/)
   - 🔍 Used in the project:
     - REACT
@@ -227,7 +227,7 @@ npx json-server db.json
 
 <hr>
 
-### 21 Marvel Project  🚀 
+### 21 Marvel Project with React  🚀 
   - 🔑 Source: [CODE](./21MarvelProject%5BREACT%5D/)
   - 👁‍🗨 Live Preview: [SITE](https://marvel-ralorem.netlify.app)
   - 🔍 Used in the project:
@@ -237,7 +237,7 @@ npx json-server db.json
 
 <hr>
 
-### 22 Movie Project  🚀 
+### 22 Movie Project with React  🚀 
   - 🔑 Source: [CODE](/22MovieProjectWithReact/)
   - 🔍 Used in the project:
     - REACT
