@@ -217,11 +217,15 @@ npx json-server db.json
     - ES6 MODULES
     - WEBPACK
 
+<hr>
+
 ### 20 Employee Manager  🚀 
   - 🔑 Source: [CODE](./20EmployeeManager%5BREACT%5D/)
   - 🔍 Used in the project:
     - REACT
     - CLASS COMPONENTS
+
+<hr>
 
 ### 21 Marvel Project  🚀 
   - 🔑 Source: [CODE](./21MarvelProject%5BREACT%5D/)
@@ -230,3 +234,15 @@ npx json-server db.json
     - REACT
     - CLASS COMPONENTS
     - MARVEL API (FETCH)
+
+<hr>
+
+### 22 Movie Project  🚀 
+  - 🔑 Source: [CODE](/22MovieProjectWithReact/)
+  - 🔍 Used in the project:
+    - REACT
+    - ROUTER V5.3
+    - CLASS COMPONENTS
+    - JSON-SERVER API (FETCH)
+    - FORM SERIALIZE
+    - BOOTSTRAP
