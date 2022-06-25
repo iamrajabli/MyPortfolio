@@ -225,6 +225,10 @@ npx json-server db.json
     - REACT
     - CLASS COMPONENTS
 
+```
+npm i
+```
+
 <hr>
 
 ### 21 Marvel Project with React  🚀 
@@ -234,6 +238,10 @@ npx json-server db.json
     - REACT
     - CLASS COMPONENTS
     - MARVEL API (FETCH)
+  
+```
+npm i
+```
 
 <hr>
 
@@ -246,3 +254,8 @@ npx json-server db.json
     - JSON-SERVER API (FETCH)
     - FORM SERIALIZE
     - BOOTSTRAP
+
+```
+npm i
+npx json-server --watch src/api/movies.json --port 3001
+```
