@@ -259,3 +259,13 @@ npm i
 npm i
 npx json-server --watch src/api/movies.json --port 3001
 ```
+
+<hr>
+
+### 23 Books Project with React  🚀 
+  - 🔑 Source: [CODE](/22MovieProjectWithReact/)
+  - 🔍 Used in the project:
+    - REACT
+    - CONTEXT API (PROVIDER, CONSUMER)
+    - CLASS COMPONENTS
+    - BOOTSTRAP
