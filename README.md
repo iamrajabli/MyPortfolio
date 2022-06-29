@@ -246,7 +246,7 @@ npm i
 <hr>
 
 ### 22 Movie Project with React  🚀 
-  - 🔑 Source: [CODE](/22MovieProjectWithReact/)
+  - 🔑 Source: [CODE](./22MovieProjectWithReact/)
   - 🔍 Used in the project:
     - REACT
     - ROUTER V5.3
@@ -263,9 +263,46 @@ npx json-server --watch src/api/movies.json --port 3001
 <hr>
 
 ### 23 Books Project with React  🚀 
-  - 🔑 Source: [CODE](/22MovieProjectWithReact/)
+  - 🔑 Source: [CODE](./23BooksProjectWithReact/)
   - 🔍 Used in the project:
     - REACT
     - CONTEXT API (PROVIDER, CONSUMER)
     - CLASS COMPONENTS
-    - BOOTSTRAP
+    - BOOTSTRAP 
+
+<hr>
+
+
+### 24 Food Project with React  🚀 
+  - 🔑 Source: [CODE](./)
+  - 🔍 Used in the project:
+    - REACT
+    - HOOKS (USESTATE, USECONTEXT, USEEFFECT, USEREF)
+    - JSON-SERVER API (FETCH)
+
+```
+npm i
+npx json-server --watch src/api/db.json --port 3001
+```
+
+### UI
+
+![1](https://i.ibb.co/R3LrPkD/Screenshot-49.png)
+
+<hr>
+
+![2](https://i.ibb.co/xMdYBsv/2.png)
+
+<hr>
+
+![3](https://i.ibb.co/WPJ5RkC/3.png)
+
+<hr>
+
+![4](https://i.ibb.co/dm0gPSZ/4.png)
+
+<hr>
+
+![5](https://i.ibb.co/Y8wgGDK/5.png)
+
+<hr>
