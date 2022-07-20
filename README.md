@@ -323,27 +323,27 @@ npx json-server --watch src/api/db.json --port 3001
 ### UI
 
 
-![1](./26MeladoraProject/src/resources/img/site/1.png)
+![1](/25DevelopersProject/src/resources/img/site/1.png)
 
 <hr>
 
-![2](./26MeladoraProject/src/resources/img/site/2.png)
+![2](./25DevelopersProject/src/resources/img/site/2.png)
 
 <hr>
 
-![3](./26MeladoraProject/src/resources/img/site/3.png)
+![3](./25DevelopersProject/src/resources/img/site/3.png)
 
 <hr>
 
-![4](./26MeladoraProject/src/resources/img/site/4.png)
+![4](./25DevelopersProject/src/resources/img/site/4.png)
 
 <hr>
 
-![5](./26MeladoraProject/src/resources/img/site/5.png)
+![5](./25DevelopersProject/src/resources/img/site/5.png)
 
 <hr>
 
-![6](./26MeladoraProject/src/resources/img/site/6.png)
+![6](./25DevelopersProject/src/resources/img/site/6.png)
 
 <hr>
 
