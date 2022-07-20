@@ -1,0 +1,65 @@
+#main {
+    margin-top: 100px;
+    background-color: rgb(238, 238, 238);
+
+    .main__banner {
+        img {
+            height: 800px;
+            object-fit: cover;
+        }
+    }
+
+    .main__container {
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+
+    .main__item {
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    .main__line {
+        width: 70%;
+    }
+
+    .main__container {
+        gap: 30px !important;
+
+        img {
+            width: 60%;
+        }
+
+        p {
+            font-size: 12px !important;
+        }
+
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+    .main__line {
+        width: 70%;
+    }
+
+    .main__container {
+        img {
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .main__banner {
+        img {
+            height: 500px !important;
+        }
+    }
+}

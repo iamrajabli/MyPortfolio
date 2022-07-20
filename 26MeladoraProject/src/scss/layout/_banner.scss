@@ -1,0 +1,23 @@
+#banner {
+    background-image: url('/src/resources/img/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+    img {
+        bottom: -25%;
+        right: 10%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    #banner {
+        height: 300px;
+
+        img {
+           width: 200px;
+           height: 150px;
+        }
+    }
+}

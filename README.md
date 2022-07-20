@@ -306,3 +306,64 @@ npx json-server --watch src/api/db.json --port 3001
 ![5](https://i.ibb.co/Y8wgGDK/5.png)
 
 <hr>
+
+### 25 Test Task Developers
+
+- 🔑 Source: [CODE](https://github.com/iamrajabli/TestTaskDevelopers)
+  - 👁‍🗨 Live Preview: [SITE](https://task-ralorem.netlify.app)
+  - 🔍 Using in the project:
+    - HTML
+    - CSS
+    - SCSS
+    - BOOTSTRAP
+    - JS
+    - ES6 MODULES
+    - WEBPACK
+
+### UI
+
+
+![1](/src/resources/img/site/1.png)
+
+<hr>
+
+![2](/src/resources/img/site/2.png)
+
+<hr>
+
+![3](/src/resources/img/site/3.png)
+
+<hr>
+
+![4](/src/resources/img/site/4.png)
+
+<hr>
+
+![5](/src/resources/img/site/5.png)
+
+<hr>
+
+![6](/src/resources/img/site/6.png)
+
+<hr>
+
+### 26 Meladora Project
+
+- 🔑 Source: [CODE](/26MeladoraProject/)
+  - 👁‍🗨 Live Preview: [SITE](https://meladora-ralorem.netlify.app)
+  - 🔍 Using in the project:
+    - HTML
+    - CSS
+    - SCSS
+    - BOOTSTRAP
+    - JS
+    - ES6 MODULES
+
+### 27 Hikmat Rajabli Project
+
+- 🔑 Source: [CODE](/27HikmatRajabliProject/)
+  - 👁‍🗨 Live Preview: [SITE](https://hikmatrajabli.netlify.app)
+  - 🔍 Using in the project:
+    - HTML
+    - CSS
+    - SCSS

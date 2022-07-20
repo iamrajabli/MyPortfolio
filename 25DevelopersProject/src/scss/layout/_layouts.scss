@@ -1,0 +1,12 @@
+html {
+    font-family: $font-montserrat ;
+}
+
+@import 'header';
+@import 'main';
+@import 'offer';
+@import 'services';
+@import 'examples';
+@import 'information';
+@import 'discuss';
+@import 'footer';

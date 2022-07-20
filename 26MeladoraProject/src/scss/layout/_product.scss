@@ -1,0 +1,28 @@
+#product {
+    .product__main {
+        img {
+            width: 254px;
+            height: 254px;
+            object-fit: cover;
+        }
+
+    }
+
+    .product__content {
+        p {
+            line-height: 30px;
+        }
+
+        span {
+            font-weight: 500;
+            color: $c-green;
+        }
+    }
+
+    .product__other {
+        img {
+            width: 95%;
+        }
+
+    }
+}

@@ -1,0 +1,22 @@
+#xidmetlerimiz {
+    margin: 100px 0;
+}
+
+@media (max-width: 992px) {
+    #xidmetlerimiz {
+        .xidmetlerimiz__wrapper {
+            margin-bottom: 30px;
+
+            .xidmetlerimiz__item {
+                text-align: center;
+
+                p {
+                    margin: 0 auto;
+                    width: 75%;
+                }
+            }
+
+
+        }
+    }
+}

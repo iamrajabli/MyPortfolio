@@ -1,0 +1,58 @@
+#discuss {
+    padding: 100px 0;
+
+    .mobile {
+        display: none;
+    }
+
+    form {
+        input {
+            outline: none;
+            border: 1px solid $c-cyan;
+            height: 58px;
+            border-radius: 10px;
+            padding: 0 20px;
+            box-sizing: border-box;
+
+            &::placeholder {
+                font-family: $font-montserrat;
+            }
+
+            &:focus {
+                border: 2px solid $c-cyan;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    #discuss {
+        padding: 50px 0;
+
+        input {
+            width: 100% !important;
+        }
+
+        .form {
+            order: -1 !important;
+        }
+
+        .mobile {
+            display: block !important;
+            height: 242px;
+            width: 171px;
+            margin-top: $margin-xl;
+        }
+
+
+        .phone,
+        .disc {
+            display: none;
+        }
+
+        .btn-base {
+            width: 100%;
+        }
+    }
+
+}

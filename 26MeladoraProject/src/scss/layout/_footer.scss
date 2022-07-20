@@ -1,0 +1,39 @@
+footer {
+    .footer__main {
+        background-image: url('/src/resources/img/footer1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 675px;
+        width: 100%;
+    }
+
+    .footer__other {
+        background-image: url('/src/resources/img/footer2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 675px;
+        width: 100%;
+
+    }
+
+    .footer__container {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width:576px) {
+    footer {
+        img {
+            width: 200px !important;
+        }
+
+        ul {
+            gap: 10px !important;
+
+        }
+
+        li {
+            font-size: 14px;
+        }
+    }
+}

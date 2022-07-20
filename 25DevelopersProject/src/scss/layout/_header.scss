@@ -1,0 +1,58 @@
+header {
+    height: 95px;
+
+    .container {
+        position: relative;
+    }
+
+    ul {
+        display: flex;
+
+    }
+
+    .header__burger {
+        display: none;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width: 576px) {
+    header {
+        height: 49px !important;
+
+
+        img {
+            width: 136px;
+            height: 35px;
+        }
+
+       @include media-ul();
+
+        .header__burger {
+            display: block !important;
+
+            img {
+                width: 50px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 576px ) and (max-width: 992px) {
+    header {
+        height: 79px !important;
+
+       @include media-ul();
+
+        .header__burger {
+            display: block !important;
+
+            img {
+                width: 70px;
+            }
+        }
+    }
+
+}

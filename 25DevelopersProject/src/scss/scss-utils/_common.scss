@@ -1,0 +1,69 @@
+.text-black {
+    color: $c-black  !important;
+}
+
+.bg-black {
+    background-color: $c-black  !important;
+}
+
+.text-cyan {
+    color: $c-cyan  !important;
+}
+
+.bg-cyan {
+    background-color: $c-cyan  !important;
+}
+
+.text-light-cyan {
+    color: $c-light-cyan  !important;
+}
+
+.bg-light-cyan {
+    background-color: $c-light-cyan  !important;
+}
+
+.text-blue {
+    color: $c-blue  !important;
+}
+
+.bg-blue {
+    background-color: $c-blue  !important;
+}
+
+.text-green {
+    color: $c-green  !important;
+}
+
+.bg-green {
+    background-color: $c-green  !important;
+}
+
+.section__title {
+    @include section-title()
+}
+
+.alt {
+    @include alt();
+}
+
+.ml-n150 {
+    margin-left: -150px;
+}
+
+.empty {
+    border: 1px solid rgb(201, 0, 0) !important;
+}
+
+@media (max-width: 576px) {
+    .section__title {
+        h2 {
+            font: {
+                size: 23px;
+                weight: $font-weight-900
+            }
+
+            line-height: 35px;
+            text-align: center;
+        }
+    }
+}

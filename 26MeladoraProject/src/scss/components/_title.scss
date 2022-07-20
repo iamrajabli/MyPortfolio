@@ -1,0 +1,16 @@
+.title {
+    margin: 70px 0;
+
+    h2 {
+        margin-left: -40px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .title {
+        img {
+            width: 200px;
+        }
+    }
+}
